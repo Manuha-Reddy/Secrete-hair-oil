@@ -1,0 +1,195 @@
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  color: #fff;
+  padding: 10px; 
+}
+
+.max {
+  color: pink;
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+}
+
+
+.icon img {
+  max-width: 100%; /* Ensures thex image does not exceed its original size */
+  height: auto; /* Allows the image to scale proportionally */
+  width: 120px; /* Adjust the width to your desired size */
+  margin-top: 30px;
+}
+
+
+nav {
+  display: block;
+  margin-right: 300px;
+  justify-content: space-between;
+}
+
+/* Add margin-right to create space between the links */
+nav a {
+  margin-right: 50px;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section {
+  padding: 20px;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left!important;
+  background: #f1f1f1;
+
+}
+
+form.example button {
+  width: 50px;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  float: left !important;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+.max1{
+  display: flex;
+}
+form{
+  margin-right: 200px;
+}
+.button1{
+  background-color: white;
+  width : 50px;
+}
+.img1{
+  object-fit: cover;
+  height: 500px;
+  width: 1500px;
+}
+.fav {
+  display: flex;
+  margin-right: 10px; 
+}
+
+
+p{
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom:10px;
+}
+.fav1{
+  text-align: center;
+  margin-top: 50px;
+}
+.img-container {
+  display: block;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: visible; /* or auto, depending on your needs */
+}
+
+.img-container img {
+  max-width: 100%;
+  height: 300px;
+  margin-right: 100px; /* Adjust the margin as needed for the space between images */
+}
+
+/* Remove the right margin from the last image to prevent extra space */
+.img-container img:last-child {
+  margin-right: 0;
+}
+p2{
+  margin-right: 10px;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom:10px;
+  margin-top: 50px;
+}
+.img-container2 {
+  display: flex !important;
+  align-items: center; /* Adjust as needed */
+  padding-left: 250px;
+}
+
+.img-container2 img {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+  margin: 0 10px; 
+  transition: transform 0.3s ease-in-out; 
+}
+.img-container2 img:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+.img-container3 {
+  display: flex !important;
+  align-items: center; /* Adjust as needed */
+  padding-left: 250px;
+}
+
+.img-container3 img {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+  margin: 0 10px; 
+  transition: transform 0.3s ease-in-out; 
+}
+.img-container3 img:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+.img-container2, .img-container3 {
+  background-image: url(istockphoto-1365935361-170667a.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  /* Add other background properties as needed */
+}
+.img-container4{
+  float:right;
+  margin-top: 50px;
+}
+
+footer p.footer-paragraph {
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #ccc; /* Add a 1px solid line below the paragraph */
+  padding-top: 5px; /* Add padding to create space between the line and text */
+  box-sizing: border-box; /* Include borders and padding in the total width */
+  width: 100%; /* Ensure the paragraph takes the full width of its container */
+  float: left;
+  text-align: start;
+}
+footer p.footer-par{
+  font-size: 14px;
+  width: 100%; /* Ensure the paragraph takes the full width of its container */
+  float: left;
+  text-align: end;
+  color: black;
+}
+.img-container3{
+  background-image: url(istockphoto-1365935361-170667a.webp);
+
+}
